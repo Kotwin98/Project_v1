@@ -139,6 +139,15 @@ template { display: none; }
 }
 
 .menu-content {
-    padding: 15px 0 0 25px;;
+    padding: 15px;
     font-size: 18px;
+}
+
+.menu-content:hover {
+    background-color: darkgray;
+    border-left: 4px solid orange;
+}
+
+.header-content-link {
+    color: white;
 }
