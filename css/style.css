@@ -121,3 +121,24 @@ template { display: none; }
 [class*="col-"] { float: left; min-height: 1px; }
 
 .row::before, .row::after { content: ""; display: table; clear: both; }
+
+.header {
+    background-color: black;
+    height: 10000px;
+    color: white;
+}
+
+.content-wrapper {
+    background-color: antiquewhite;
+    height: 10000px;
+}
+
+.menu {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.menu-content {
+    padding: 15px 0 0 25px;;
+    font-size: 18px;
+}
