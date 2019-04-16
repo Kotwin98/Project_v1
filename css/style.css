@@ -129,7 +129,7 @@ template { display: none; }
 }
 
 .content-wrapper {
-    background-color: antiquewhite;
+    background-color: #f0f2ea;
     height: 10000px;
 }
 
@@ -148,17 +148,93 @@ template { display: none; }
     border-left: 4px solid orange;
 }
 
-.header-content-link {
+.main-header-content-link {
     color: white;
 }
 
 .header {
     background-color: white;
     width: 100%;
-    height: 50px;
 }
 
-img {
-    height: 25px;
-    width: 25px;
+
+.arrow-down{
+    width: 10px;
+    padding-left: 4px;
+}
+
+.wallet{
+    padding: 2px 0 0;
+    width: 14px;
+}
+
+.notification{
+    width: 20px;
+}
+
+.profile{
+    width: 16px;
+}
+
+.exit{
+    width: 16px;
+}
+
+.header-content{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.top-bar-border{
+    border-left: 1px solid grey;
+}
+
+.container{
+    background-color: white;
+    width: 98%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.gen-stat{
+    border-bottom: 1px solid grey;
+}
+
+.calendar{
+    width: 12px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+.date1{
+    padding: 0 50px 0 50px;
+}
+
+.refresh{
+    width: 16px;
+    padding-left: 35px;
+}
+
+.refresh-button{
+    padding-right: 35px;
+    background-color: #edb431;
+    width: 30px;
+}
+
+.information{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-top: 30px;
 }
