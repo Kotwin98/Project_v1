@@ -192,7 +192,7 @@ template { display: none; }
 .container{
     background-color: white;
     width: 98%;
-    height: 500px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -237,4 +237,52 @@ template { display: none; }
     justify-content: space-between;
     border-bottom: 1px solid gray;
     padding-top: 30px;
+}
+
+.earnings{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.legend{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box{
+    float: right;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: lightgray;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: block;
+    border-radius: 50%;
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    display: block;
+    border-radius: 50%;
+}
+
+.circle3{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    display: block;
+    border-radius: 50%;
 }
