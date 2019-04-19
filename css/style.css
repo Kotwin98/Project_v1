@@ -337,6 +337,7 @@ template {
 [class*="col-"] {
   float: left;
   min-height: 1px;
+  position: relative;
 }
 
 .row::before,
@@ -368,8 +369,30 @@ template {
   float: right;
   height: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.header-content2 {
+  text-align: center;
+  border-left: 1px solid grey;
+  height: 35px;
+  padding-top: 15px;
+}
+
+.first-part {
+  width: 30%;
+}
+
+.second-part {
+  width: 10%;
+}
+
+.third-part {
+  width: 50%;
+}
+
+.fourth-part {
+  width: 10%;
 }
 
 .menu {
