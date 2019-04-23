@@ -349,8 +349,10 @@ template {
 
 .main-header {
   background-color: black;
-  height: 10000px;
-  color: white;
+  height: 100vh;
+  position: fixed;
+  width: 25%;
+  color: #ffffff;
 }
 
 .content-wrapper {
@@ -362,6 +364,8 @@ template {
   width: 100%;
   background-color: #ffffff;
   height: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #878585;
 }
 
 .header-content {
@@ -374,7 +378,7 @@ template {
 
 .header-content2 {
   text-align: center;
-  border-left: 1px solid grey;
+  border-left: 1px solid #c6c6c6;
   height: 35px;
   padding-top: 15px;
 }
@@ -398,14 +402,16 @@ template {
 .menu {
   padding: 10px;
   font-size: 26px;
+  font-family: 'Satisfy', cursive;
 }
 
 .menu-content {
-  font-size: 18px;
+  font-size: 14px;
   height: 65px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .menu-content:hover {
@@ -423,86 +429,84 @@ template {
 
 .general {
   width: 22px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 80px;
 }
 
 .details {
   width: 16px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 90px;
 }
 
 .links {
   width: 20px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 95px;
 }
 
 .banners {
   width: 16px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 80px;
 }
 
 .personal-data {
   width: 12px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 40px;
 }
 
 .payout {
   width: 16px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 85px;
 }
 
 .postback {
   width: 16px;
-  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(274deg) brightness(97%) contrast(94%);
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
   padding-right: 70px;
-}
-
-.header {
-  background-color: white;
-  width: 100%;
 }
 
 .arrow-down {
   width: 10px;
   padding-left: 4px;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
 .wallet {
   padding: 2px 0 0;
   width: 14px;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
 .notification {
   width: 20px;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
 .profile {
   width: 16px;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
 .exit {
   width: 16px;
-}
-
-.top-bar-border {
-  border-left: 1px solid grey;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
 .container {
-  background-color: white;
+  background-color: #ffffff;
   width: 98%;
   height: 1000px;
   margin: 0 auto;
 }
 
 .gen-stat {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #c6c6c6;
+  font-family: "Open Sans", sans-serif;
+  color: #a3a1a1;
 }
 
 h3 {
@@ -511,29 +515,57 @@ h3 {
 
 .calendar {
   width: 12px;
+  filter: invert(56%) sepia(1%) saturate(416%) hue-rotate(314deg) brightness(94%) contrast(87%);
 }
 
-.date {
+.date-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #c6c6c6;
+  color: #878585;
+  font-family: "Open Sans", sans-serif;
 }
 
-.date1 {
-  padding: 0 50px 0 50px;
+.date {
+  width: 40%;
+}
+
+.date2 {
+  padding: 0px 40px 0px 40px;
+}
+
+.calendar-border {
+  border: 1px solid #c6c6c6;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
 
 .refresh {
   width: 16px;
-  padding-left: 35px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(332deg) brightness(104%) contrast(101%);
+}
+
+.refresh-button-container {
+  height: 30px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  padding-top: 1px;
 }
 
 .refresh-button {
-  padding-right: 35px;
   background-color: #edb431;
-  width: 30px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
 }
 
 .information {
@@ -544,13 +576,18 @@ h3 {
 .info {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #c6c6c6;
   padding-top: 30px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #878585;
 }
 
 .earnings {
   width: 60%;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: #878585;
 }
 
 .legend {
@@ -569,6 +606,8 @@ h3 {
   height: 30px;
   background-color: #eae8e3;
   border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
+  color: #878585;
 }
 
 .circle {
